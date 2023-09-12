@@ -1,4 +1,4 @@
-import "../../assets/css/section/HeroSection.css";
+import "../../assets/css/section/Hero.css";
 import { v4 as uuidv4 } from "uuid";
 import { SocialList } from "./SocialList";
 
@@ -25,9 +25,9 @@ const socials = [
   },
 ];
 
-export const HeroSection = () => {
+export const Hero = () => {
   return (
-    <section className="container hero">
+    <div className="container hero">
       <div className="hero__content">
         <h1 className="hero__title">
           Hola, mi nombre es Fulana de Tal y construyo paginas web
@@ -49,6 +49,6 @@ export const HeroSection = () => {
           alt="Mi imagen de perfil"
         />
       </div>
-    </section>
+    </div>
   );
 };

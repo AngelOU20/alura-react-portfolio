@@ -1,10 +1,10 @@
-import { Header, HeroSection } from "./components";
+import { Header, Section } from "./components";
 
 function App() {
   return (
     <>
       <Header />
-      <HeroSection />
+      <Section />
     </>
   );
 }
