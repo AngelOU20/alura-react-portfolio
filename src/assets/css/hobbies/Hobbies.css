@@ -1,0 +1,38 @@
+.hobbies {
+  padding: 40px 0;
+}
+
+.hobbies__title {
+  color: #464646;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+
+  margin-bottom: 32px;
+}
+
+.hobbies__item-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.hobbies__item {
+  width: 176px;
+  height: 174px;
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 8px;
+
+  background: #fff;
+}
+
+.hobbies__name {
+  color: #464646;
+  font-size: 16px;
+  font-weight: 700;
+}

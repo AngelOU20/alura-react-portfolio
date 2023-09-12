@@ -1,0 +1,56 @@
+.academic {
+  background-color: #eaf2fd;
+  width: 100%;
+  padding: 64px 0;
+}
+
+.academic__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.academic__title-main {
+  color: #464646;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+
+  margin-bottom: 32px;
+}
+
+.academic__item-container {
+  display: flex;
+  gap: 40px;
+}
+
+.academic__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.academic__icon {
+  display: flex;
+  width: 426px;
+  height: 326px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  background: #fff;
+}
+
+.academic__title {
+  color: #464646;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.academic__year {
+  color: #464646;
+  font-size: 16px;
+  font-weight: 500;
+}
